@@ -2,7 +2,7 @@ import { defineConfig } from "cypress";
 import vitePreprocessor from "cypress-vite";
 
 export default defineConfig({
-  projectId: '6z47mx',
+  projectId: 'oe2r3e',
   reporter: 'junit',
   reporterOptions: {
     mochaFile: 'results/test-[hash].xml',
