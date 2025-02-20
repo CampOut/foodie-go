@@ -11,7 +11,7 @@
   [plugins.inputs]
     record = true 
     group = 'deployed'
-  [plugins.input.postBuild]
+  [plugins.inputs.postBuild]
     enable = true 
     record = true 
     group = 'built'
