@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+    [build.environment]
+
+    CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
+    TERM = "xterm"
+
+[[plugins]]
+  package = "netlify-plugin-cypress"
+  [plugins.inputs]
+    record = true 
+    group = 'deployed'
+  [plugins.input.postBuild]
+    enable = true 
+    record = true 
+    group = 'built'
