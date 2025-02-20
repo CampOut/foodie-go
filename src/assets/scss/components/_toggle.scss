@@ -1,0 +1,22 @@
+.delivery-options-wrapper {
+    position: relative;
+    height: 2.25rem;
+    text-align: left;
+    color: $black;
+
+    .toggle-container {
+        display: flex;
+    }
+}
+
+.toggle-icon {
+    font-size: 16px;
+}
+
+.toggle-off {
+    color: $black;
+}
+
+.toggle-on {
+    color: $green;
+}
